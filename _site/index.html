@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBM Fest 2025 | Quantum Club @ ASU</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white min-h-screen">
+    <!-- Navigation Bar -->
+    <nav class="bg-slate-900/90 backdrop-blur-sm border-b border-slate-700 sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-3 md:py-4">
+                <div class="flex items-center space-x-3">
+                    <img src="https://quantumclubasu.github.io/assets/img/LogoV3_Circle.png" alt="Quantum Club @ ASU Logo" class="w-10 h-10 md:w-12 md:h-12 filter invert">
+                    <span class="text-xl md:text-2xl font-bold whitespace-nowrap">IBM Fest 2025</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="hover:text-blue-400 transition-colors text-base md:text-lg">About</a>
+                    <a href="#schedule" class="hover:text-blue-400 transition-colors text-base md:text-lg">Schedule</a>
+                    <a href="#partners" class="hover:text-blue-400 transition-colors text-base md:text-lg">Partners</a>
+                    <a href="#register" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-4 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 whitespace-nowrap">Register</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 border-t border-slate-700">
+            <div class="px-4 py-3 space-y-3">
+                <a href="#about" class="block py-2 hover:text-blue-400 transition-colors">About</a>
+                <a href="#schedule" class="block py-2 hover:text-blue-400 transition-colors">Schedule</a>
+                <a href="#partners" class="block py-2 hover:text-blue-400 transition-colors">Partners</a>
+                <a href="#register" class="block w-full text-center bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-4 py-2 rounded-lg font-medium transition-all duration-300">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-4 py-20 relative z-10 text-center">
+            <img src="https://quantumclubasu.github.io/assets/img/LogoV3_Circle.png" alt="Quantum Club @ ASU Logo" class="w-32 h-32 mx-auto mb-6 filter invert">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">IBM Fest 2025</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Join the Quantum Club @ ASU for a groundbreaking celebration of quantum computing and AI innovation with IBM</p>
+            <a href="#register" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">Register Now</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">About IBM Fest 2025</h2>
+            <div class="max-w-4xl mx-auto text-center text-lg leading-relaxed">
+                <p class="mb-6">Hosted by the Quantum Club @ ASU, IBM Fest 2025 is a premier event bringing together students, researchers, and industry professionals to explore the cutting edge of quantum computing and artificial intelligence.</p>
+                <p>Whether you're a curious beginner or an advanced quantum explorer, join us for workshops, keynote speeches, hands-on labs, and networking opportunities with IBM experts and the ASU quantum community.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="py-16 px-4 bg-slate-800/50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Event Schedule</h2>
+            <div class="overflow-x-auto max-w-6xl mx-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-slate-700">
+                            <th class="px-6 py-4 border-b border-slate-600">Date</th>
+                            <th class="px-6 py-4 border-b border-slate-600">Time</th>
+                            <th class="px-6 py-4 border-b border-slate-600">Event</th>
+                            <th class="px-6 py-4 border-b border-slate-600">Speaker/Host</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-700">
+                        <!-- Day 1 -->
+                        <tr class="bg-slate-800 hover:bg-slate-750 transition-colors">
+                            <td class="px-6 py-4 font-semibold text-blue-400" rowspan="4">March 15, 2025</td>
+                            <td class="px-6 py-4">9:00 AM - 10:00 AM</td>
+                            <td class="px-6 py-4">Opening Ceremony & Welcome</td>
+                            <td class="px-6 py-4">Quantum Club @ ASU & IBM Leadership</td>
+                        </tr>
+                        <tr class="bg-slate-800 hover:bg-slate-750 transition-colors">
+                            <td class="px-6 py-4">10:30 AM - 12:00 PM</td>
+                            <td class="px-6 py-4">Keynote: The Future of Quantum Computing</td>
+                            <td class="px-6 py-4">Dr. Sarah Johnson, IBM Quantum Lead</td>
+                        </tr>
+                        <tr class="bg-slate-800 hover:bg-slate-750 transition-colors">
+                            <td class="px-6 py-4">1:30 PM - 3:30 PM</td>
+                            <td class="px-6 py-4">Hands-on Workshop: Qiskit Fundamentals</td>
+                            <td class="px-6 py-4">IBM Quantum Educators</td>
+                        </tr>
+                        <tr class="bg-slate-800 hover:bg-slate-750 transition-colors">
+                            <td class="px-6 py-4">4:00 PM - 5:30 PM</td>
+                            <td class="px-6 py-4">Panel: Quantum Careers in Industry</td>
+                            <td class="px-6 py-4">Industry Experts from IBM, Google, and Microsoft</td>
+                        </tr>
+                        
+                        <!-- Day 2 -->
+                        <tr class="bg-slate-800 hover:bg-slate-750 transition-colors">
+                            <td class="px-6 py-4 font-semibold text-purple-400" rowspan="4">March 16, 2025</td>
+                            <td class="px-6 py-4">9:00 AM - 11:00 AM</td>
+                            <td class="px-6 py-4">Workshop: Building Quantum Algorithms</td>
+                            <td class="px-6 py-4">IBM Quantum Developers</td>
+                        </tr>
+                        <tr class="bg-slate-800 hover:bg-slate-750 transition-colors">
+                            <td class="px-6 py-4">11:30 AM - 1:00 PM</td>
+                            <td class="px-6 py-4">Research Showcase: ASU Quantum Projects</td>
+                            <td class="px-6 py-4">ASU Student Researchers</td>
+                        </tr>
+                        <tr class="bg-slate-800 hover:bg-slate-750 transition-colors">
+                            <td class="px-6 py-4">2:00 PM - 4:00 PM</td>
+                            <td class="px-6 py-4">Hackathon: Quantum Solutions Challenge</td>
+                            <td class="px-6 py-4">Team Competition with IBM Mentors</td>
+                        </tr>
+                        <tr class="bg-slate-800 hover:bg-slate-750 transition-colors">
+                            <td class="px-6 py-4">4:30 PM - 6:00 PM</td>
+                            <td class="px-6 py-4">Closing Ceremony & Prizes</td>
+                            <td class="px-6 py-4">Award Ceremony and Networking Reception</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="py-16 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Partners</h2>
+            <p class="text-center mb-10 text-lg">We're proud to collaborate with these incredible organizations:</p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+                <div class="bg-slate-800 p-6 rounded-xl flex items-center justify-center hover:bg-slate-700 transition-colors duration-300 border border-slate-700">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" class="h-12 grayscale hover:grayscale-0 transition-all duration-300">
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl flex items-center justify-center hover:bg-slate-700 transition-colors duration-300 border border-slate-700">
+                    <span class="text-2xl font-bold">ASU</span>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl flex items-center justify-center hover:bg-slate-700 transition-colors duration-300 border border-slate-700">
+                    <span class="text-xl">Quantum Club<br>@ ASU</span>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl flex items-center justify-center hover:bg-slate-700 transition-colors duration-300 border border-slate-700">
+                    <span class="text-xl">Additional<br>Partners</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="py-20 px-4 bg-gradient-to-r from-blue-900/50 to-purple-900/50">
+        <div class="container mx-auto max-w-4xl">
+            <div class="bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-slate-700 text-center">
+                <h2 class="text-3xl font-bold mb-6">Register for IBM Fest 2025</h2>
+                <p class="mb-8 text-lg">Secure your spot at the premier quantum computing event of the year!</p>
+                
+                <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK_HERE" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg inline-block">
+                    Register Now - Free Admission
+                </a>
+                
+                <p class="mt-6 text-slate-400">Registration deadline: February 28, 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 bg-slate-900/80 border-t border-slate-700">
+        <div class="container mx-auto text-center">
+            <img src="https://quantumclubasu.github.io/assets/img/LogoV3_Circle.png" alt="Quantum Club @ ASU Logo" class="w-20 h-20 mx-auto mb-6 filter invert">
+            <p class="mb-4">Hosted by Quantum Club @ ASU</p>
+            <p class="text-slate-400 text-sm">Arizona State University | Tempe, AZ</p>
+            <div class="mt-6 flex justify-center space-x-6">
+                <a href="https://quantumclubasu.github.io/" class="text-slate-300 hover:text-white transition-colors">Website</a>
+                <a href="#" class="text-slate-300 hover:text-white transition-colors">Contact</a>
+                <a href="#" class="text-slate-300 hover:text-white transition-colors">FAQ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
