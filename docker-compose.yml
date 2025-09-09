@@ -12,4 +12,3 @@ services:
             - /srv/jekyll/vendor/bundle
             - /srv/jekyll/_site
             - /srv/jekyll/.jekyll-cache
-            - /srv/jekyll/node_modules

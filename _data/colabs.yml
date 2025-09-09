@@ -1,3 +1,6 @@
 organizations:
-  - name: Quantum Club
-    logo: 
+  - name: IBM Quantum
+    logo: assets/images/IBMQuantumLogo.png
+  
+  - name: Quantum Collaborative
+    logo: assets/images/QuantumCollaborative.png

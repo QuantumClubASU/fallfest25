@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /srv/jekyll
 
 # Copy your Gemfile and install gems (caching layer)
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./
 RUN bundle install
 
 # Copy your package.json and install npm dependencies (new caching layer)
