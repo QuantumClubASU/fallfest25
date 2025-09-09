@@ -20,7 +20,55 @@
 
 - date: "October 8th, 2025"
   events:
+    - time: "4:00 PM - 5:00 PM"
+      title: "Intro to Qiskit Playground"
+      speaker: "Quantum Club Organizers"
+      location: "T.B.D"
+    - time: "5:00 PM - 5:30 PM"
+      title: "Break and Snacks"
+      speaker: "-"
+      location: "T.B.D"
+    - time: "5:00 PM - 5:30 PM"
+      title: "Quantum Machine Learning with Qiskit"
+      speaker: "Vinayak Sharma"
+      location: "T.B.D"
+
+- date: "October 9th, 2025"
+  events:
     - time: "6:00 PM - 7:00 PM"
-      title: "Keynote Speaker"
-      speaker: "IBM Quantum Speaker"
+      title: "Distinguished Speakers Panel"
+      speaker: "ASU Faculty"
+      location: "T.B.D"
+
+- date: "October 10th, 2025"
+  events:
+    - time: "5:00 PM - 6:00 PM"
+      title: "Qiskit Office Hours"
+      speaker: "Quantum Club Organizers"
+      location: "T.B.D"
+    - time: "6:00 PM - 6:30 PM"
+      title: "History of Quantum"
+      speaker: "ASU Faculty"
+      location: "T.B.D"
+    - time: "6:30 PM - 7:30 PM"
+      title: "Social Night"
+      speaker: "-"
+      location: "T.B.D"
+
+- date: "October 10th, 2025"
+  events:
+    - time: "1:00 PM - 4:00 PM"
+      title: "Hackathon Day"
+      speaker: "-"
+      location: "T.B.D"
+
+- date: "October 11th, 2025"
+  events:
+    - time: "1:00 PM - 2:00 PM"
+      title: "Hackathon Judging"
+      speaker: "-"
+      location: "T.B.D"
+    - time: "2:00 PM - 3:00 PM"
+      title: "Closing Ceremony and Prizes"
+      speaker: "Quantum Club Organizers"
       location: "T.B.D"

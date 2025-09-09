@@ -42,6 +42,7 @@ body{
     color: var(--link-underline-color);
 }
 
+
 // .sponsors{
 //     // background-color: var(--sidebar-bg);
 // }
@@ -64,6 +65,11 @@ body{
     color: white;
     font-weight: 800;
     width: fit-content;
+}
+
+.handshake{
+  color:  var(--asu-maroon);
+  font-size: 6rem;
 }
 
 .nav-register-button{
