@@ -1,0 +1,24 @@
+{
+  "name": "IBM-Fall-Fest-2025-ASU",
+  "version": "1.0.0",
+  "description": "Event page for IBM Qiskit Fall Fest 2025 hosted by Quantum Club @ ASU",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:css && bundle exec jekyll build",
+    "build:css": "tailwindcss -i ./assets/css/main.scss -o ./assets/css/main.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/main.scss -o ./assets/css/main.css --watch",
+    "serve": "bundle exec jekyll serve",
+    "start": "concurrently \"npm run watch:css\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "concurrently": "^8.2.2",
+    "cssnano": "^7.0.1",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "preline": "^2.3.0"
+  }
+}
