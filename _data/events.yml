@@ -32,12 +32,6 @@
       title: "Keynote Speaker"
       speaker: "IBM Quantum Speaker"
       location: "T.B.D"
-- date: "October 9th, 2025"
-  events:
-    - time: "6:00 PM - 7:00 PM"
-      title: "Distinguished Speakers Panel"
-      speaker: "ASU Faculty"
-      location: "T.B.D"
 
 - date: "October 24th, 2025"
   events:
@@ -45,13 +39,9 @@
       title: "Qiskit Office Hours"
       speaker: "Quantum Club Organizers"
       location: "T.B.D"
-    - time: "6:00 PM - 6:30 PM"
-      title: "100 years of Quantum"
-      speaker: "Quantum Club Organizers"
-      location: "T.B.D"
-    - time: "6:30 PM - 7:30 PM"
-      title: "Quantum Social"
-      speaker: "-"
+    - time: "6:00 PM - 7:00 PM"
+      title: "Distinguished Speakers Panel"
+      speaker: "ASU Faculty"
       location: "T.B.D"
 
 - date: "October 25th, 2025"
