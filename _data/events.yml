@@ -1,27 +1,20 @@
 # schedule.yml
 
-- date: "October 6th, 2025"
+- date: "October 21th, 2025"
   events:
     - time: "6:00 PM - 7:00 PM"
       title: "Opening Ceremony & Welcome"
-      speaker: "Quantum Club @ ASU"
+      speaker: "Quantum Club at ASU"
       location: "T.B.D"
     - time: "7:00 PM - 8:00PM"
       title: "Trivia Night"
-      speaker: "Quantum Club @ ASU"
+      speaker: "Quantum Club at ASU"
       location: "T.B.D"
 
-- date: "October 7th, 2025"
-  events:
-    - time: "6:00 PM - 7:00 PM"
-      title: "Keynote Speaker"
-      speaker: "IBM Quantum Speaker"
-      location: "T.B.D"
-
-- date: "October 8th, 2025"
+- date: "October 22th, 2025"
   events:
     - time: "4:00 PM - 5:00 PM"
-      title: "Intro to Qiskit Playground"
+      title: "Qiskit Playground: Intro to Qiskit"
       speaker: "Quantum Club Organizers"
       location: "T.B.D"
     - time: "5:00 PM - 5:30 PM"
@@ -33,6 +26,12 @@
       speaker: "Vinayak Sharma"
       location: "T.B.D"
 
+- date: "October 23th, 2025"
+  events:
+    - time: "6:00 PM - 7:00 PM"
+      title: "Keynote Speaker"
+      speaker: "IBM Quantum Speaker"
+      location: "T.B.D"
 - date: "October 9th, 2025"
   events:
     - time: "6:00 PM - 7:00 PM"
@@ -40,29 +39,29 @@
       speaker: "ASU Faculty"
       location: "T.B.D"
 
-- date: "October 10th, 2025"
+- date: "October 24th, 2025"
   events:
-    - time: "5:00 PM - 6:00 PM"
+    - time: "1:00 PM - 3:00 PM"
       title: "Qiskit Office Hours"
       speaker: "Quantum Club Organizers"
       location: "T.B.D"
     - time: "6:00 PM - 6:30 PM"
-      title: "History of Quantum"
-      speaker: "ASU Faculty"
+      title: "100 years of Quantum"
+      speaker: "Quantum Club Organizers"
       location: "T.B.D"
     - time: "6:30 PM - 7:30 PM"
-      title: "Social Night"
+      title: "Quantum Social"
       speaker: "-"
       location: "T.B.D"
 
-- date: "October 10th, 2025"
+- date: "October 25th, 2025"
   events:
-    - time: "1:00 PM - 4:00 PM"
-      title: "Hackathon Day"
+    - time: "10:00 AM"
+      title: "Hackathon Begins"
       speaker: "-"
       location: "T.B.D"
 
-- date: "October 11th, 2025"
+- date: "October 26th, 2025"
   events:
     - time: "1:00 PM - 2:00 PM"
       title: "Hackathon Judging"
