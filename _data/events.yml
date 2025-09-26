@@ -21,10 +21,10 @@
       title: "Break and Snacks"
       speaker: "-"
       location: "T.B.D"
-    - time: "5:00 PM - 5:30 PM"
+    - time: "5:30 PM - 6:30 PM"
       title: "Quantum Machine Learning with Qiskit"
       speaker: "Vinayak Sharma"
-      location: "T.B.D"
+      location: "BYAC 270"
 
 - date: "October 23th, 2025"
   events:
