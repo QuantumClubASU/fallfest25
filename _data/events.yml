@@ -23,7 +23,7 @@
       location: "T.B.D"
     - time: "5:30 PM - 6:30 PM"
       title: "Quantum Machine Learning with Qiskit"
-      speaker: "<a href="https://www.vinayak19th.me/">Vinayak Sharma, PhD Student QML</a>"
+      speaker: '<a href="https://www.vinayak19th.me/">Vinayak Sharma, PhD Student QML</a>'
       location: "BYAC 270"
 
 - date: "October 23th, 2025"
