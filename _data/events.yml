@@ -23,7 +23,7 @@
       location: "T.B.D"
     - time: "5:30 PM - 6:30 PM"
       title: "Quantum Machine Learning with Qiskit"
-      speaker: "Vinayak Sharma"
+      speaker: "<a href="https://www.vinayak19th.me/">Vinayak Sharma, PhD Student QML</a>"
       location: "BYAC 270"
 
 - date: "October 23th, 2025"
@@ -31,7 +31,7 @@
     - time: "6:00 PM - 7:00 PM"
       title: "Keynote Speaker"
       speaker: "IBM Quantum Speaker"
-      location: "T.B.D"
+      location: '<a href="https://www.linkedin.com/in/emilkovacev/">Emil Kovacev, Software Test Engineer at IBM Quantum</a>'
 
 - date: "October 24th, 2025"
   events:
