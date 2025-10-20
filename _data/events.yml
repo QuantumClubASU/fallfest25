@@ -5,18 +5,18 @@
     - time: "6:00 PM - 7:00 PM"
       title: "Opening Ceremony & Welcome"
       speaker: "Quantum Club at ASU"
-      location: "T.B.D"
+      location: "PSF 123"
     - time: "7:00 PM - 8:00PM"
       title: "Trivia Night"
       speaker: "Quantum Club at ASU"
-      location: "T.B.D"
+      location: "PSF 123"
 
 - date: "October 22th, 2025"
   events:
     - time: "4:00 PM - 5:00 PM"
       title: "Qiskit Playground: Intro to Qiskit"
       speaker: "Quantum Club Organizers"
-      location: "T.B.D"
+      location: "Hayden C7"
     - time: "5:00 PM - 5:30 PM"
       title: "Break and Snacks"
       speaker: "-"
@@ -31,28 +31,28 @@
     - time: "6:00 PM - 7:00 PM"
       title: "Keynote Speaker"
       speaker: '<a href="https://www.linkedin.com/in/emilkovacev/">Emil Kovacev, Software Test Engineer at IBM Quantum</a>'
-      location: "T.B.D"
+      location: "PSF 123"
 
 - date: "October 24th, 2025"
   events:
     - time: "1:00 PM - 3:00 PM"
       title: "Qiskit Office Hours"
       speaker: "Quantum Club Organizers"
-      location: "T.B.D"
+      location: "Hayden C34"
 
 - date: "October 25th, 2025"
   events:
     - time: "10:00 AM"
       title: "Hackathon Begins"
       speaker: "-"
-      location: "T.B.D"
+      location: "Hayden C34"
 
 - date: "October 26th, 2025"
   events:
     - time: "1:00 PM - 2:00 PM"
       title: "Hackathon Judging"
       speaker: "-"
-      location: "T.B.D"
+      location: "Hayden C34"
     - time: "2:00 PM - 3:00 PM"
       title: "Closing Ceremony and Prizes"
       speaker: "Quantum Club Organizers"
