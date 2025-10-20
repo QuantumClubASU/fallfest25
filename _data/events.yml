@@ -30,8 +30,8 @@
   events:
     - time: "6:00 PM - 7:00 PM"
       title: "Keynote Speaker"
-      speaker: "IBM Quantum Speaker"
-      location: '<a href="https://www.linkedin.com/in/emilkovacev/">Emil Kovacev, Software Test Engineer at IBM Quantum</a>'
+      speaker: '<a href="https://www.linkedin.com/in/emilkovacev/">Emil Kovacev, Software Test Engineer at IBM Quantum</a>'
+      location: "T.B.D"
 
 - date: "October 24th, 2025"
   events:
