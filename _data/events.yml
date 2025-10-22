@@ -16,7 +16,7 @@
     - time: "4:00 PM - 5:00 PM"
       title: "Qiskit Playground: Intro to Qiskit"
       speaker: "Quantum Club Organizers"
-      location: "Hayden C7"
+      location: "LSA 109"
     - time: "5:00 PM - 5:30 PM"
       title: "Break and Snacks"
       speaker: "-"
@@ -24,7 +24,7 @@
     - time: "5:30 PM - 6:30 PM"
       title: "Quantum Machine Learning with Qiskit"
       speaker: '<a href="https://www.vinayak19th.me/">Vinayak Sharma, PhD Student QML</a>'
-      location: "BYAC 270"
+      location: "LSA 109"
 
 - date: "October 23th, 2025"
   events:
